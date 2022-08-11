@@ -110,22 +110,26 @@
   <section id="middle-container" style="background-color: #ff4c68;">
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
-        <div class="carousel-item active testimonials-box">
+        <div class="carousel-item testimonials-box" id="active">
           <h2 class="testimonials">I no longer have to sniff other dogs for love. I've found the hottest corgi on TinDog. Woof.</h2>
-          <img class="testimonial-Image" src="images/dog-img.jpg" alt="Dog-Image">
+          <div class="testimonial-image-wrapper">
+            <img class="testimonial-image" src="images/dog-img.jpg" alt="Dog-Image">
+          </div>
           <p id="user-info"><em>Pebbles from New York City</em></p>
         </div>
         <div class="carousel-item testimonials-box">
           <h2 class="testimonials">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-Image" src="images/lady-img.jpg" alt="lady-profile">
+          <div class="testimonial-image-wrapper">
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          </div>
           <em>Beverly, Illinois</em>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <a class="carousel-control-prev" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="testimonial-carousel" role="button" data-slide="next">
+      <a class="carousel-control-next" role="button" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
