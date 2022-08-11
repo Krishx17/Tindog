@@ -1,5 +1,4 @@
 body {
-
 }
 
 h3 {
@@ -10,25 +9,21 @@ p {
   color: #8f8f8f;
 }
 
-#offers{
-  padding-top : 30px;
+.fontawesome {
+  display: block;
+  width: 100%;
+  color: black;
+  font-size: 40px;
 }
 
-#testimonials-box {
-  background-color: #ff4c68;
-  padding: 5% 15%;
-}
-
-#title {
-  background-color: #ff4c68;
-}
+/* navigation-Bar */
 
 #navigation-Bar {
   background-color: #ff4c68;
 }
 
-#middle-Container {
-  background-color: #ff4c68;
+.container-fluid {
+  padding: 3% 15%;
 }
 
 .navbar-brand {
@@ -44,16 +39,14 @@ p {
   font-weight: 4rem;
 }
 
-.navbar {
-  padding-left: 0;
-}
-
 .collapse {
   margin-left: 450px;
 }
 
-.contact-margin {
-  margin-left: 900px;
+/* title section */
+
+#title {
+  background-color: #ff4c68;
 }
 
 .title-style {
@@ -62,33 +55,26 @@ p {
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
-
-.fontawesome {
-  display: block;
-  width: 100%;
-  color: black;
-  font-size: 40px;
-}
-
-/* Downloaded buttons */
-.downloaded-buttons {
-  margin: 5% 3% 5%;
-}
-
 .main-image {
   width: 60%;
   transform: rotate(25deg);
 }
 
-/* features  */
+.download-buttons {
+  margin: 5% 3% 5%;
+}
+
+
+
+
+
+
+/* features-section */
+
 .features-heading {
   display: inline-block;
 }
 
-/* features-description */
 .featuring-paragraph {
   display: inline-block;
 }
@@ -117,14 +103,27 @@ p {
   text-align: center;
 }
 
-.press {
-  background-color: #ff4c68;
-  text-align: center;
+
+
+
+
+
+
+
+
+#offers{
+  padding-top : 30px;
 }
 
-.press-logo {
-  width: 17%;
-  padding: 10px 20px 50px;
+#testimonials-box {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+}
+
+/* middle-container-section */
+
+#middle-Container {
+  background-color: #ff4c68;
 }
 
 .carousel-item {
@@ -164,6 +163,18 @@ p {
   display: none !important;
 }
 
+.press {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-logo {
+  width: 17%;
+  padding: 10px 20px 50px;
+}
+
+/* press-section */
+
 .purchase-plan-text{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -173,6 +184,8 @@ p {
 .offer-box{
   padding: 0 10rem 1.5rem 10rem;
 }
+
+/* bottom-container-section */
 
 .bottom-class{
   text-align: center;
@@ -188,5 +201,5 @@ p {
 .credentials-info{
   text-align: center;
   padding: 1rem;
+} 
 
-}
