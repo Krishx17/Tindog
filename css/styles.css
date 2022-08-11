@@ -64,11 +64,6 @@ p {
   margin: 5% 3% 5%;
 }
 
-
-
-
-
-
 /* features-section */
 
 .features-heading {
@@ -101,23 +96,6 @@ p {
 .features {
   padding: 75px;
   text-align: center;
-}
-
-
-
-
-
-
-
-
-
-#offers{
-  padding-top : 30px;
-}
-
-#testimonials-box {
-  background-color: #ff4c68;
-  padding: 5% 15%;
 }
 
 /* middle-container-section */
@@ -153,6 +131,11 @@ p {
   grid-column: 1 / 3;
 }
 
+#testimonials-box {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+}
+
 #user-info {
   color: white;
   text-align: left;
@@ -179,6 +162,11 @@ p {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   text-align: center;
+}
+
+#testimonials-box {
+  background-color: #ff4c68;
+  padding: 5% 15%;
 }
 
 .offer-box{
